@@ -17,9 +17,9 @@ function Page() {
         <div className="grid-item">
 
           <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="home" element={<Home />} />
               <Route path="sevices" element={<Services />} />
-              <Route path="news" element={<News />} />
+              <Route path="/" element={<News />} />
               <Route path="blog" element={<Blog />} />
               <Route path="contact" element={<Contact />} />
               <Route path="*" element={<NoPage />} />
