@@ -1,9 +1,16 @@
 import React from 'react';
+import Content from './Content';
+import Header from './Header';
 
 function News() {
     return (
         <div>
-            <h2>News</h2>
+            <header>
+                <Header/>
+            </header>
+            <main>
+                <Content/>
+            </main>
         </div>
     );
 }
